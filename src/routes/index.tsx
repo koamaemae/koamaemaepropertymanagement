@@ -77,7 +77,7 @@ function Hero() {
 
       <div style={{ maxWidth: '720px', position: 'relative' }}>
         <span className="section-label" style={{ display: 'block', marginBottom: '2.5rem' }}>
-          Private Estate Stewardship
+          Waikiki property management
         </span>
         <h1 style={{
           fontFamily: 'var(--font-serif)',
@@ -88,8 +88,8 @@ function Hero() {
           lineHeight: 1.05,
           letterSpacing: '-0.01em',
         }}>
-          Estate continuity,<br />
-          <em style={{ fontStyle: 'italic', color: 'var(--color-gold-light)' }}>without interruption.</em>
+          Concierge, bookings,<br />
+          <em style={{ fontStyle: 'italic', color: 'var(--color-gold-light)' }}>and guest services.</em>
         </h1>
         <p style={{
           fontFamily: 'var(--font-sans)',
@@ -101,8 +101,7 @@ function Hero() {
           letterSpacing: '0.03em',
           marginBottom: '4rem',
         }}>
-          Discreet stewardship and concierge property care for high-value private residences.
-          We maintain the integrity of your estate — precisely, quietly, and without exception.
+          We help property owners manage rentals,support guests with concierge services,and connect trusted local vendors across Waikiki
         </p>
         <a
           href="#consultation"
@@ -119,7 +118,7 @@ function Hero() {
             padding: '1.1rem 2.8rem',
           }}
         >
-          Request Private Consultation
+          Request management Consultation
         </a>
       </div>
 
