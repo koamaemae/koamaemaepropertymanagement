@@ -1,0 +1,75 @@
+@import "tailwindcss" source("../");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap');
+
+:root {
+  --color-black: #0a0a0a;
+  --color-charcoal: #141414;
+  --color-dark: #1c1c1c;
+  --color-muted: #2e2e2e;
+  --color-stone: #6b6560;
+  --color-warm: #a89880;
+  --color-gold: #c9a96e;
+  --color-gold-light: #dfc08a;
+  --color-cream: #f5f0e8;
+  --color-off-white: #faf7f2;
+  --color-emerald: #1a2e25;
+  --color-emerald-mid: #243b30;
+  --color-emerald-light: #2f4f3e;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Jost', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-black);
+  color: var(--color-cream);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+
+.gold-rule {
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: var(--color-gold);
+  margin-bottom: 2rem;
+}
+
+.section-label {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+}
